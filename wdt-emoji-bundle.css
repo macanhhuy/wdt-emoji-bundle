@@ -41,9 +41,6 @@ body[data-wdt-emoji-bundle='apple'] .wdt-emoji[data-has-img-apple='false'] {
 /* bundle popup styles */
 .wdt-emoji-popup {
   position: absolute;
-  top: 0;
-  left: 0;
-
   visibility: hidden;
 
   width: 357px;
