@@ -348,8 +348,7 @@
 
       if (groupHeader) {
         wdtEmojiBundle.setActiveTab(group);
-  console.log(groupHeader.offsetTop, group, groupHeader.getBoundingClientRect(), wdtEmojiBundle.scroller );
-         wdtEmojiBundle.scroller.scrollTop = groupHeader.offsetTop - groupHeader.getBoundingClientRect().height - 2;
+        wdtEmojiBundle.scroller.scrollTop = groupHeader.offsetTop - groupHeader.getBoundingClientRect().height - 2;
       }
 
       return false;
